@@ -1,0 +1,40 @@
+.task{
+border-radius: 8px;
+border: 1px solid var(--Gray-400, #333);
+background: var(--Gray-500, #262626);
+box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+height: 150px;
+width: 400px;
+}
+
+.task:not(:last-child) {
+    margin-bottom: 5px;
+}
+.allTask{
+
+}
+
+.ulTask{}
+.taskP{
+  color: white;
+}
+
+
+.buton{
+        width: 70px;
+        padding: 7px;
+        color: white;
+        background-color: #111e371e;
+        border-radius: 10px;
+        border: 2px solid #ad3419;
+
+    }
+.make{
+    width: 70px;
+    padding: 7px;
+    color: white;
+    background-color: #111e371e;
+    border-radius:10px;
+    border: 2px solid #1d8ca8;
+
+}
